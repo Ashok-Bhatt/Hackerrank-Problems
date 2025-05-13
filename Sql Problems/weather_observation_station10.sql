@@ -1,0 +1,1 @@
+SELECT DISTINCT city FROM station WHERE NOT(city REGEXP '[aeiou]$')

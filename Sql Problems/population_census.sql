@@ -1,0 +1,1 @@
+select sum(population) from (select city.population,country.continent from city INNER JOIN country on city.countrycode=country.code) as subquery where continent='Asia';
